@@ -8,3 +8,7 @@ fs.readFile('./text.txt',(err, data) => {
         console.log(data.toString())
     }
 })
+
+fs.writeFile('./text.txt', 'Hello',() => {
+
+})
